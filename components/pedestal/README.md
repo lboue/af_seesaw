@@ -1,8 +1,17 @@
-# A component for a certain pedestal fan
+# Pedestal fan
 
 This component requires a configured `remote_transmitter`.
 
-Example:
+## YAML config
+
+**Parameters**
+
+fan component parameters:
+ - speed_pin: PWM input speed pin
+ - osc_pin: boolean oscillating status pin
+
+**Example**
+
 ```yaml
 remote_transmitter:
   id: remote
@@ -16,3 +25,4 @@ fan:
     osc_pin: 16
     transmitter_id: remote
 ```
+
