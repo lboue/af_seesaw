@@ -1,6 +1,7 @@
 # A component for a certain pedestal fan
 
-This component requires a configured `remote_transmitter`.
+This component sends IR remote control codes to a fan using ESPHome.
+It requires a configured [`remote_transmitter`](https://esphome.io/components/remote_transmitter.html).
 
 Example:
 ```yaml
